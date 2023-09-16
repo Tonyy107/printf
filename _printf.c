@@ -8,5 +8,5 @@ int _printf(const char *format)
 	{
 		putchar(format[i]);
 	}
-	return (0);
+	return (i);
 }
